@@ -26,7 +26,8 @@ db.serialize(() => {
             estado TEXT NOT NULL,
             cep TEXT NOT NULL,
             latitude REAL,
-            longitude REAL 
+            longitude REAL
+        ) 
     `);
 });
 
