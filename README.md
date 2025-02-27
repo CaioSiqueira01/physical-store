@@ -1,12 +1,12 @@
 # Physical Store
 
-Este projeto consiste no desenvolvimento de uma **Physical Store** para localizar lojas físicas próximas a um CEP informado, utilizando **JavaScript e MongoDB**.
+Este projeto consiste no desenvolvimento de uma **Physical Store** para localizar lojas físicas próximas a um CEP informado, utilizando **JavaScript e SQLite**.
 
 ## 🚀 Tecnologias Utilizadas
 
 - **Node.js** 
 - **Express** 
-- **MongoDB** 
+- **SQLite** 
 - **Axios** 
 - **Winston**
 
@@ -47,11 +47,7 @@ cd physical-store
 npm install
 ```
 
-### 3️⃣ Configure o banco de dados
-1. Instale o **MongoDB** (se ainda não tiver).
-2. Configure a URL do banco de dados no arquivo `src/config/database.js`.
-
-### 4️⃣ Execute a aplicação
+### 3️⃣ Execute a aplicação
 ```sh
 node index.js
 ```
